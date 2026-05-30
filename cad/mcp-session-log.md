@@ -15,10 +15,11 @@ V5 provenance stub for the glass harp L1 packet.
 | session_id | tool | input_authority | outputs | role | authority_result | review_status | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | none-2026-05-30 | none | User prompt and general mechanism description. | `README.md`, `design.md`, `bom.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l1_concept_packet | concept_only | self_checked | No MCP, CAD, image, audio, Wolfram, or CAM tool generated artifacts. |
+| 2026-05-30-r7-l2-uplift | Codex local edit | Existing L1 packet and Round 7 convention. | `README.md`, `design.md`, `bom.csv`, `cut-list.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l2_packet_uplift | pending_measurement | self_checked | Deepened L2 review scaffold only. No CAD, DXF, glass dimensions, water volumes, tuning values, acoustic numbers, fill-height tables, or fabrication coordinates were generated. |
 
 ## Authority Notes
 
 - No fabricated dimensions, DXF coordinates, glass specifications, water levels,
   tuning values, pitch maps, or measured acoustic response were created.
 - Future pitch and layout claims must trace to measured glasses, water-level
-  records, and validation logs before promotion beyond L1.
+  records, and validation logs before promotion beyond L2.

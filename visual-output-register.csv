@@ -1,6 +1,7 @@
 artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,review_status,notes
-GH-README-001,README.md,packet_readme,concept_summary,concept_only,,none,self_checked,"L1 status and concept boundary; no fabrication or tuning authority."
-GH-DESIGN-001,design.md,design_note,mechanism_concept,concept_only,README.md,none,self_checked,"Mechanism and measurement gates only."
+GH-README-001,README.md,packet_readme,concept_summary,concept_only,,none,self_checked,"L2 status and concept boundary; no fabrication or tuning authority."
+GH-DESIGN-001,design.md,design_note,mechanism_concept,concept_only,README.md,none,self_checked,"Mechanism analysis and measurement gates only."
 GH-BOM-001,bom.csv,bom_estimate,planning_inventory,pending_measurement,design.md,none,self_checked,"Estimated part classes; glass selection and fill records are pending measurement."
-GH-DECISION-001,decision-record.md,decision_record,concept_decisions,concept_only,design.md,none,self_checked,"Design-study decisions and open questions."
+GH-CUT-001,cut-list.csv,cut_list,blank_family_estimate,pending_measurement,design.md,none,self_checked,"Estimated tray label log and storage families only; no released dimensions or fabrication coordinates."
+GH-DECISION-001,decision-record.md,decision_record,concept_decisions,concept_only,design.md,none,self_checked,"Design-study decisions alternatives and open questions."
 GH-MCP-001,cad/mcp-session-log.md,provenance_log,qmd_and_tooling,pending_measurement,README.md,none,self_checked,"QMD and external-tool provenance stub; no MCP/CAD session created geometry."
