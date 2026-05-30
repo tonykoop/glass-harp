@@ -1,0 +1,8 @@
+item_id,system,item,authority,status,notes
+GH-GLASSES,resonators,wine glass set,pending_measurement,estimate_class_only,"Glass count, source, shape, and response are not specified."
+GH-WATER,tuning_interface,water and fill workflow,pending_measurement,estimate_class_only,"Fill method and recording protocol require measurement."
+GH-LABELS,documentation,glass labels and fill markers,pending_measurement,estimate_class_only,"Label material must survive water handling."
+GH-TRAY,layout,spill-safe tray or playing surface,pending_measurement,estimate_class_only,"Layout and glass stability are not specified."
+GH-MEASURE,validation,tuner and measurement log,pending_measurement,estimate_class_only,"Pitch and response data must be collected from real glasses."
+GH-WIPES,playing_interface,towels and wetting control,pending_measurement,estimate_class_only,"Moisture management is required but not specified."
+GH-STORAGE,safety,storage and breakage handling,pending_measurement,estimate_class_only,"Storage, transport, and broken-glass disposal need review."
