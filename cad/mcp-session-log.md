@@ -16,6 +16,7 @@ V5 provenance stub for the glass harp L1 packet.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | none-2026-05-30 | none | User prompt and general mechanism description. | `README.md`, `design.md`, `bom.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l1_concept_packet | concept_only | self_checked | No MCP, CAD, image, audio, Wolfram, or CAM tool generated artifacts. |
 | 2026-05-30-r7-l2-uplift | Codex local edit | Existing L1 packet and Round 7 convention. | `README.md`, `design.md`, `bom.csv`, `cut-list.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l2_packet_uplift | pending_measurement | self_checked | Deepened L2 review scaffold only. No CAD, DXF, glass dimensions, water volumes, tuning values, acoustic numbers, fill-height tables, or fabrication coordinates were generated. |
+| 2026-05-30-r8-glass-harp-wolfram | Codex CLI; local file editing | `docs/plans/2026-05-30-round8/_WOLFRAM_AUTHOR.md`; existing packet files | `glass-harp-starter.wl`, `wolfram/glass-harp-wolfram-model.wl`, `visual-output-register.csv`, `cad/mcp-session-log.md` | wolfram_source_authoring | reference_only | self_checked | No MCP or Wolfram Desktop session was run. Source was authored by hand as a parametric estimate-only model; physical numbers are placeholders pending measurement, not fabrication authority. |
 
 ## Authority Notes
 
