@@ -78,7 +78,7 @@ glassHarpSymbolicModel = <|
      frictionCoefficientEstimate, rimContactSpeedEstimate]
    |>;
 
-Manipulate[
+glassHarpExplorer = Manipulate[
  Module[
   {
    radiusQuantity = Quantity[radius, "Meters"],
