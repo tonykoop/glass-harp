@@ -1,0 +1,7 @@
+check_id,area,target,method,tolerance,measured,result,action
+VAL-001,Glass inventory,"real glass set labeled and measured one glass at a time (design.md Measurement Gates)",per-glass ID + dry response tap test,measurement_required,TBD,TBD,"Reject/reselect glass; relabel"
+VAL-002,Water-level repeatability,"repeatable water-level recording method",drain/refill test kit (bom.csv GH-CUT-007),measurement_required,TBD,TBD,"Revise fill-measuring tool/protocol"
+VAL-003,Dry vs. filled response,"dry and filled response logs for each candidate glass",tuner/response logging kit (bom.csv GH-MEASURE-PITCH),measurement_required,TBD,TBD,"Re-measure; separate dry vs. filled variables"
+VAL-004,Layout safety,"safe table/tray layout controls spills and keeps glasses stable",tray/pad mockup test,no spill/no slip,TBD,TBD,"Revise tray material or pad placement"
+VAL-005,Playability,"onset, sustain, hand spacing, and retuning drift tested",playing session log,measurement_required,TBD,TBD,"Revise glass spacing or wetting technique"
+VAL-006,Cleaning/storage,"cleaning and storage plan preserves labels and fill records",storage dry-run,no label/record loss,TBD,TBD,"Revise label material or storage method"

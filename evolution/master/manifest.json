@@ -1,0 +1,34 @@
+{
+  "product": "glass-harp",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/glass-harp.scad",
+      "format": "openscad-source",
+      "sha256": "8ccf0782fad3cd6876c2b5fc61df6045fb9b367a628cb298690f3b91f3dbf149",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Non-dimensional glass array + table bounding envelope; bench-planning layout only."
+    },
+    {
+      "path": "wolfram/glass-harp-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "f8594fce624cfefddd659a3d323cce97affadac04aa5506b09fabf2e0c633c08",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); estimate placeholders."
+    },
+    {
+      "path": "glass-harp-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "a991090aa925703834b1914887d8f2fba906a0f927844432d3508c3ca3457425",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Thin Wolfram loader; source-only."
+    }
+  ],
+  "notes": "No design table (xlsx) exists for this instrument. OpenSCAD envelope and Wolfram sources are the only current masters; no STEP export. Gate A (Alpha workspace compile) not yet run."
+}

@@ -1,0 +1,7 @@
+item,required_spec,search_terms,supplier_candidates,date_checked,unit_price_usd,lead_time,substitution_risk,notes
+Candidate wine glass set,TBD (count/shape/rim condition not released; see design.md Mechanism Analysis),"wine glass set thin rim musical glasses","glassware suppliers; thrift/surplus glassware",TBD,TBD,TBD,High,"Blocked on glass-by-glass dry/filled response measurement before spec can be released (bom.csv GH-GLASSES)."
+Spare candidate glasses,TBD (count pending breakage/selection testing),"wine glass set replacement stock","glassware suppliers",TBD,TBD,TBD,Medium,"Used for breakage and selection tests only (bom.csv GH-SPARES)."
+Repeatable water-measuring tool,TBD (marked vessel/syringe/scale pending workflow review),"graduated cylinder syringe precise water measure","lab/kitchen supply suppliers",TBD,TBD,TBD,Low,"Fill-recording protocol not yet defined (bom.csv GH-MEASURE-VOLUME)."
+Spill-safe tray / playing surface,TBD (layout/damping pending),"spill tray non-slip serving tray","housewares/hardware suppliers",TBD,TBD,TBD,Medium,"Layout mockup required before material selection (bom.csv GH-TRAY)."
+Non-damping pads,TBD (material/placement pending listening tests),"non-slip rubber cork pad small","hardware suppliers",TBD,TBD,TBD,Low,"Candidate stability aids only (bom.csv GH-PADS)."
+Tuner / response logging kit,TBD (pending real-glass measurement),"chromatic tuner contact mic recording","music electronics suppliers",TBD,TBD,TBD,Low,"Pitch/response data collection tool (bom.csv GH-MEASURE-PITCH)."
