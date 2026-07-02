@@ -2,7 +2,7 @@
 
 # Glass Harp
 
-Status: L2 V5 build-packet candidate
+**Status:** L2 V5 build-packet candidate
 
 Private V5 build-packet candidate for a glass harp: a set of tuned wine glasses played
 by wet fingers around the rims, with pitch selected by glass choice and adjusted
@@ -36,6 +36,12 @@ level, rim behavior, table layout, damping, and playability are all
   `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD and provenance stub; no MCP/CAD session run.
 - `decision-record.md` - decisions, open questions, and promotion gates.
+- `sourcing.csv`, `validation.csv`, `risks.md`, `drawing-brief.md` - V5
+  baseline packet tables (TBD-marked; no design table exists yet).
+- `cad/glass-harp.scad` - non-dimensional glass array + table bounding
+  envelope; authority `pending_measurement`.
+- `evolution/` - evolution-pipeline Stage 0 intake: master manifest,
+  design-intent, and revision register (Gate A not yet run).
 
 ## Readiness
 
